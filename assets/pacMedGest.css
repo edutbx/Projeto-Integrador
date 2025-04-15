@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #008f9c; 
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   background-color: white;
+}
+
+
+.section1{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 200px;
+    justify-content: space-around;
+}
+
+.section2{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#imgCard{
+    width: 300px;
+    height: 300px;
+    height: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+    background-color: aliceblue;
+    border-radius: 10%;
+    transition: transform 0.1s ease;
+    color: black;
+}
+
+
+.card:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
+.botoesCard{
+    display: flex;
+    flex-direction: column;
+}
+
+.botoesCardDir{
+    margin-bottom: 100px;
+}
