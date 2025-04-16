@@ -17,9 +17,9 @@ h1 {
 .container-home {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 54rem;
     margin-top: 5rem;
-    margin-left: 15rem;
+    margin-left: 26rem;
 } 
 
 .container-cards {

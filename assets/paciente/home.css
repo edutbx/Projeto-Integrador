@@ -18,9 +18,9 @@ h1 {
 .container-home {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 54rem;
     margin-top: 5rem;
-    margin-left: 15rem;
+    margin-left: 26rem;
 }
 .container-artigos{
     margin-top: 9rem;
@@ -50,7 +50,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 15px;
-    width: 250px;
+    width: 16rem;
     height: 300px;
     position: relative;
     background-color: #fff;

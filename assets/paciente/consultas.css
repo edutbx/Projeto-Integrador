@@ -16,8 +16,9 @@ h1 {
 
 
 .container-consultas{
-    margin-left: 28rem;
+    width: 54rem;
     margin-top: 5rem;
+    margin-left: 26rem;
 }
 .container-consulta{
     margin-top: 90px;   
@@ -26,7 +27,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 600px;
+    width: 100%;
     background-color: whitesmoke;
     padding: 2px 0;
     border-radius: 20px;
