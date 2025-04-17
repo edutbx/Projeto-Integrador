@@ -1,56 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/escolha.css">
-    <title>Entrar</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escolha de Acesso</title>
+  <link rel="stylesheet" href="assets/escolha.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header><img src="assets/img/logonova.png" style="width: 300px; height: auto;"></header>
-    <a href="index.html"><input type="button" value="Voltar"></a>
-    <h1>Escolha uma opção</h1>
-    <section class="section1">
-            <div class="card">
-                <img src="assets/img/medicoCartoon.png" id="imgCard">
-                <h2>Médico</h2>
-            </div>
+  <header>
+    <img src="assets/img/logonova.png" alt="Logo" class="logo" />
+  </header>
 
-            <div class="card">
-                <img src="assets/img/paciente.png" id="imgCard">
-                <h2>Paciente</h2>
-            </div>
-
-            <div class="card">
-                <img src="assets/img/gestor.png" id="imgCard">
-                <h2>Gestor</h2>
-            </div>
+  <main>
+    <h1>Como deseja entrar?</h1>
+    <section class="cards-container">
+      <div class="card" onclick="location.href='medico/login.html'">
+        <img src="assets/img/medicoCartoon.png" alt="Médico" />
+        <h2>Médico</h2>
+        <button>Entrar</button>
+      </div>
+      <div class="card">
+        <img src="assets/img/paciente.png" alt="Paciente" />
+        <h2>Paciente</h2>
+        <div class="actions">
+          <button onclick="location.href='cadastroPaciente1.html'">Registrar</button>
+          <button onclick="location.href='paciente/login.html'">Entrar</button>
+        </div>
+      </div>
+      <div class="card" onclick="location.href='gerente/login.html'">
+        <img src="assets/img/gestor.png" alt="Gestor" />
+        <h2>Gestor</h2>
+        <button>Entrar</button>
+      </div>
     </section>
-
-    <section class="section2">
-
-        <div class="botoesCard">
-            <a href="medico/login.html">
-            <input type="button" value="Login">
-            </a>
-        </div>
-        <div class="botoesCard"><br>
-            <a href="cadastroPaciente1.html">
-            <input type="button" value="Registrar"><br>
-            </a>
-
-            <a href="paciente/login.html">
-            <input type="button" value="Login">
-            </a>
-        </div>
-        <div class="botoesCard">
-            <a href="gerente/login.html">
-            <input type="button" value="Login">
-            </a>
-        </div>
-
-    </section>
-
-
+    <div class="voltar">
+      <button onclick="location.href='index.html'">Voltar</button>
+    </div>
+  </main>
 </body>
 </html>
