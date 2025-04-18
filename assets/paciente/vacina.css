@@ -15,9 +15,9 @@ h1 {
     display: flex;
 }
 .container-vacinas{
-    width: 54rem;
-    margin-top: 5rem;
-    margin-left: 26rem;
+    width: 65vw;
+    margin-top: 5vw;
+    margin-left: 25vw;
 }
 .container-vacina{
     margin-top: 90px;

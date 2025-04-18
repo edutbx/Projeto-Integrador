@@ -16,9 +16,9 @@ h1 {
 
 
 .container-consultas{
-    width: 54rem;
-    margin-top: 5rem;
-    margin-left: 26rem;
+    width: 65vw;
+    margin-top: 5vw;
+    margin-left: 25vw;
 }
 .container-consulta{
     margin-top: 90px;   
@@ -36,7 +36,6 @@ h1 {
 
 .container-consulta table {
     width: 100%;
-    max-width: 800px;
     border-collapse: collapse;
 }
 

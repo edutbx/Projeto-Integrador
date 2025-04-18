@@ -15,9 +15,9 @@ h1 {
 }
 
 .container-exames{
-    width: 54rem;
-    margin-top: 5rem;
-    margin-left: 26rem;
+    width: 65vw;
+    margin-top: 5vw;
+    margin-left: 25vw;
 }
 .container-exame{
     margin-top: 90px;   
@@ -34,7 +34,6 @@ h1 {
 
 .container-exame table {
     width: 100%;
-    max-width: 800px;
     border-collapse: collapse;
 }
 
@@ -70,7 +69,7 @@ h1 {
 
 .container-exame table tr td .botao-exames {
     font-size: 14px;
-    max-width: 90px;
+    width: 90px;
     margin-left: auto;
     display: flex;
     align-items: center;
